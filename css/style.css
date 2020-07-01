@@ -828,6 +828,9 @@ fieldset {
     font-size: 35px;
     line-height: 35px
 }
+	body{
+	width:100vw;
+	}
 	
 }
 
