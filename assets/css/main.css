@@ -3918,6 +3918,12 @@ input, select, textarea {
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+body.is-mobile #banner{
+	widht:100vw;	
+}
+body.is-mobile #footer{
+	widht:100vw;	
+}
 
 /* Footer */
 
