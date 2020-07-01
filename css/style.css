@@ -288,6 +288,9 @@ a.active {
   nav ul {
     padding: 15px;
 	}
+nav li {
+    margin: 10px 10px; 
+}
 }
 
 /* home section
