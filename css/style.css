@@ -281,7 +281,14 @@ a:hover {
 a.active {
     color: #68F;
 }
-
+@media only screen and (max-width: 420px) {
+  nav li a {
+    letter-spacing: 2px;
+  }
+  nav ul {
+    padding: 15px;
+	}
+}
 
 /* home section
 ==================================================*/
