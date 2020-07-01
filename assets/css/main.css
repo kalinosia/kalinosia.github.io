@@ -4038,6 +4038,7 @@ body.is-mobile #footer{
 		
 		background-position: center center;
 		background-repeat: no-repeat;
+		width:100%;
 		background-size: cover;
 		/*background-size: cover, 100vw auto;*/
 	}
