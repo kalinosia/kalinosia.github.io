@@ -824,9 +824,10 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
-	h1{
-	font-size:60px;
-	}
+	.size-50 {
+    font-size: 35px;
+    line-height: 35px
+}
 	
 }
 
