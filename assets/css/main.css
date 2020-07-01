@@ -1553,7 +1553,7 @@ input, select, textarea {
 				.row.aln-bottom {
 					align-items: flex-end;
 				}
-
+/*
 				.row > .imp-xsmall {
 					order: -1;
 				}
@@ -1755,6 +1755,7 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
 						}
+			*/
 
 		}
 
