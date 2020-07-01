@@ -4039,8 +4039,11 @@ body.is-mobile #footer{
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-size: cover, 100vw auto;
+		/*background-size: cover, 100vw auto;*/
 	}
+
+body.is-mobile.landing #banner::after{
+width:100vw;}
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
