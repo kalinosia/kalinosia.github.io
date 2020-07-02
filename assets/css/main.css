@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	width:100vw;
 	
-  position: absolute;
+	
+ /* position: absolute;*/
 }
 
 ol, ul {
