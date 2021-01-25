@@ -23,6 +23,14 @@
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	<link rel="stylesheet" href="assets/css/main.css" />
 
+    <!-- BOOTSTRAP MODAL -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- MODAL STYLE -->
+    <link href="css/modal.css" rel="stylesheet">
+    
 </head>
 
 <body class="landing is-preload max-vw-100">
@@ -74,23 +82,21 @@
                 <h4>01</h4>
                 <h1 class="size-50">Know <br /> About me</h1>
                 <div class="h-50"></div>
-                <p>At the end of studies, I inspierd by technology and coding. I start thinking to change my path from biomechanical to coding. I started studied myself coding in youtube tuturial. I enjoy creating things and solve problems. My goals is to always build amazing products which will come in handy. I have not always been interested in technology, which is why I start so late. But since I got into coding, "day by day" fascinates and motivates more and more.</p>
-                <p>I started with <strong style=" text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;">C++</strong>. 
-		Later I built pages with tuturials, met <strong style=" text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;">HTML and CSS</strong>.
-		Lately I met with <strong style=" text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;">JavaScript</strong> when I was doing website with calculator. 
-		In summer 2019 discovered Harvard courses and I decided take "CS50: Introduction to Computer Science" course. On final project I done game in <strong style=" text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;">Python</strong>.
-			I still learn a lot and develop my skills. 
-
-</p>
-		    
-                <!--
-		<div id="podpis" class="h-50"></div>  <img src="img/Signature.png" width="230" alt="" />
-                <div class="h-50"></div>
-		-->
+                <p>At the end of studies, I inspired by technology and coding. I start thinking to change my path from biomechanical to coding. I started studied myself coding. I enjoy creating things and solve problems. I have not always been interested in technology, which is why I start so late. But since I got into coding, "day by day" fascinates and motivates more and more. The most I learned was to learn and look for solutions on my own.</p>
             </div>
             <div class="col-md-6 about-img-div">
                 <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
                 <img src="img/about-img.jpg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            </div>
+            <div class="col-md-12" data-aos="fade-up">
+                <p>I started with <strong style=" text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;">C++</strong>.
+		Later I built pages with tutorials, met <strong style=" text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;">HTML and CSS</strong>.
+		Later I met with <strong style=" text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;">JavaScript</strong> when I was doing website with calculator.
+		In summer 2020 discovered Harvard courses and I decided take "CS50: Introduction to Computer Science" course.  I worked in <strong style=" text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;">C</strong> then some <strong style=" text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;">Python, SQL</strong>.
+                    On final project I done game in Python with pygame and I fell in love for good in games.
+			I still learn a lot and develop my skills.
+
+                </p>
             </div>
         </div>
     </div>
@@ -106,25 +112,6 @@
             </div>
             <div class="col-md-12">
                 <ul class="timeline">
-                    <li class="timeline-event" data-aos="fade-up">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">March 2017 - February 2019</p>
-                            <h3>Politechnika Warszawska</h3>
-                            <h4>Biomechanic Engineering</h4>
-                            <p><strong>Master's degree - 4 semesters</strong>
-                                <br>Interrupted before defense, I am in the process of writing my master's thesis.</p>
-                        </div>
-                    </li>
-                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">summer 2018</p>
-                            <h3>Instytut Wyobraźni</h3>
-                            <h4>Intern - 3D Printing</h4>
-                            <p>Here will be some information about my intern and what i do in this company or can i say start up.</p>
-                        </div>
-                    </li>
                     <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
@@ -140,17 +127,40 @@
                             <p class="timeline-event-thumbnail">Summer 2016</p>
                             <h3>I Wojskowy Szpital Kliniczny w Lublinie</h3>
                             <h4>Trainee as Biomedical Engineering</h4>
-                            <p><strong>Systemarchitektur, Consulting</strong>
-                                <br>Konzeption und Modellierung von Systemen und APIs für Digital Publishing und Entitlement nach SOA</p>
+                            <p><br>Management of small medical tools. Repair of medical equipment in a hospital, e.g. operating table. Research on the medical equipment market.</p>
                         </div>
-		    </li>
+		            </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">summer 2018</p>
+                            <h3>Instytut Wyobraźni</h3>
+                            <h4>Intern - 3D Printing</h4>
+                            <p>Here will be some information about my intern and what i do in this company or can i say start up.</p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">March 2017 - February 2019</p>
+                            <h3>Politechnika Warszawska</h3>
+                            <h4>Biomechanic Engineering</h4>
+                            <p><strong>Master's degree - 4 semesters</strong>
+                                <br>Interrupted before defense, I am in the process of writing my master's thesis.</p>
+                        </div>
+                    </li>
 			<li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
                             <p class="timeline-event-thumbnail">Summer 2019 - Now</p>
                             <h3>Self learning</h3>
                             <h4>Programming</h4>
-                            <p>Summer/Autumn 2020 - course "CS50's Introduction to Computer Science" from Harvard University </p>
+                            <p>Summer/Autumn 2020 - course "CS50's Introduction to Computer Science" from Harvard University
+                                </br><br>
+                                <img id="myImg" src="img/CS50x.png" width="200" class="img-responsive" alt="" align="left" data-aos="fade-right" data-aos-delay="0" />
+                        <!--#########################################################3-->
+                            </p>
+
                         </div>
                     </li>
                 </ul>
@@ -347,6 +357,17 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption">Certificate CS50x course 2020 </div>
+</div>
+
+<script src="js/modal.js"></script>
+
+
 </body>
 
 </html>
