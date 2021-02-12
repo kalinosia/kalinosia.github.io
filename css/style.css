@@ -1046,4 +1046,39 @@ fieldset {
 		}
 */
 
+@media (max-width: 991px) {
+    #about p {
+        text-align: justify;
+    }
 
+    .about-border {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    #about img {
+        width: 50%;
+        margin-left:auto;
+        margin-right:auto;
+        margin:0;
+    }
+    .about-img-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 500px) {
+
+    #about img {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0;
+    }
+}
+   
