@@ -246,7 +246,7 @@ nav ul {
     -webkit-transition: all .5s;
     transition: all .5s;
 }
-/*EDYCJA NAWIGACJI TUTAJ >>>>>>>>>>>>>>>>>>>>>>>*/
+/*EDYCJA NAWIGACJI TUTAJ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 nav li {
     display: inline-block;
     margin: 10px 30px; 
@@ -282,19 +282,53 @@ a:hover {
 a.active {
     color: #68F;
 }
-@media only screen and (max-width: 420px) {
-  nav li a {
-    letter-spacing: 2px;
-  }
+@media only screen and (max-width: 676px) {
+ 
   nav ul {
     padding: 15px;
 	}
-nav li {
-    margin: 10px 10px; 
+    nav li {
+        margin: 10px 15px;
+    }
+	
 }
-	nav{
-	width:100vw;
-	}
+@media only screen and (max-width: 555px) {
+
+    nav ul {
+        padding: 15px;
+    }
+
+    nav li {
+        margin: 10px 10px;
+    }
+
+    nav {
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 500px) {
+
+    nav ul {
+        padding: 15px;
+    }
+
+    nav li {
+        margin: 10px 10px;
+    }
+
+    nav {
+        width: 100vw;
+    }
+        nav li a {
+            font-size: 10px;
+            letter-spacing: 2px;
+        }
+}
+
+@media only screen and (max-width: 355px) {
+   header {
+    height: 100px;
+    }
 }
 
 /* home section
